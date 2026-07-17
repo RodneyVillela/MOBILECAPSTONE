@@ -1,0 +1,18 @@
+{
+  "name": "shrimp-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.5"
+  }
+}
+
